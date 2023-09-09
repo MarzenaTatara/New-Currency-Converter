@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel=" stylesheet" href="css/style.css">
+    <link rel=" stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__field">
+            <legend class="form__legend">Currency converter</legend>
+            <p>
+              <strong> Wybierz walutę:</strong>  
+                <select class="form__currency js-currency" name="currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="EGP">EGP</option>
+                </select>
+            </p>
+            <label>
+               <strong> Wpisz kwotę do wymiany:</strong> <input class="form__amount js-amount" name="amount" type="number" min="1" step="0.5" required>
+            </label>
+            <p>
+                <label>
+                    <button class="form__button">Przelicz</button>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__result">Twoja kwota po przeliczeniu wynosi: </span><strong class="form__result--strong js-result">N/a</strong>
+                </label>
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

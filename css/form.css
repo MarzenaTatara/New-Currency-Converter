@@ -1,0 +1,52 @@
+.form {
+    max-width: 800px;
+    margin: 200px auto;
+}
+
+.body {
+    background-color: #3f033f17;
+}
+
+.form__field {
+    background-color: #3f033f40;
+}
+
+.form__legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+}
+
+.form__currency {
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.form__amount {
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.form__button {
+    max-width: 800px;
+    padding: 5px 400px;
+    background-color: #3f033f;
+    color: white;
+    border-radius: 5px;
+}
+
+.form__button:hover {
+    background-color: #3f033f7d;
+}
+
+.form__button:active {
+     background-color: #3f033f46;
+}
+
+.form__result {
+    font-weight: bold;
+}
+
+.form__result--strong {
+    font-size: x-large;
+}
