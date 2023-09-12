@@ -3,7 +3,7 @@
 Hi. I present another currency converter. This time I made it completely on my own. You can convert three currencies: euro, US dollar and Egyptian pound. The converted amount is given in Polish zloty.
 ##
 
-![Currency converter](C:\dev\kalkulator walut\currency converter\images\currency-converter.png) 
+![Currency converter](https://ibb.co/0hFT5bZ) 
 
 https://marzenatatara.github.io/New-Currency-Converter/
 ## Characteristics
